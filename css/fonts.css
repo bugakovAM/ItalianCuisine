@@ -1,0 +1,50 @@
+
+@font-face {
+    
+    font-family: "open Sans Bold"; 
+    
+    
+    src: url("../fonts/open Sans.ttf") format("truetype"); 
+    font-style:normal; 
+    font-weight:normal; 
+    } 
+
+@font-face {
+ 
+    font-family: "open Sans light"; 
+    
+    
+    src: url("../fonts/open Sans Light.ttf") format("truetype"); 
+    font-style:normal; 
+    font-weight:normal; 
+    } 
+
+@font-face {
+ 
+    font-family: "open Sans SemiBold"; 
+    
+    
+    src: url("../fonts/open Sans SemiBold.ttf") format("opentype"); 
+    font-style:normal; 
+    font-weight:normal; 
+} 
+
+@font-face {
+    
+    font-family: "Reey-Regular"; 
+    
+    
+    src: url("../fonts/Reey-Regular.otf") format("truetype"); 
+    font-style:normal; 
+    font-weight:normal; 
+} 
+
+@font-face {
+    
+    font-family: "Montserrat"; 
+    
+    
+    src: url("../fonts/Montserrat.ttf") format("truetype"); 
+    font-style:normal; 
+    font-weight:normal; 
+} 

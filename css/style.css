@@ -1,0 +1,593 @@
+html, body{
+    height: 100%;
+}
+
+#container{
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+#headerDiv{
+    height: 1056px;
+    background: url("../img/headerBackground.jpg") no-repeat;
+    background-size: cover;
+    z-index: 3;
+    position:absolute;
+    display: block;
+}
+
+#headerMenu{
+    display: inline-block;
+    margin: 25px 0 0 500px;
+    position:absolute;
+}
+
+#headerMenu li{
+    display: inline-block;
+    padding: 0 40px 0 0;
+}
+
+#headerMenu a{
+    text-decoration: none;
+    font-family: "open Sans Bold"; 
+    color: rgb(253, 252, 252);
+    transition: all 2s ease;
+    padding: 5px;
+}
+
+#headerMenu a:hover{
+    color: rgb(5, 0, 0);
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 2px;
+    transition: all 1s ease;
+}
+
+#search{
+    width: 185px;
+    height: 50px;
+    display:inline-block;
+    position: relative;
+    margin: 12px 0 0 1050px;
+}
+
+#searchText,#subscribeForm{
+    width: 184px;
+    height: 50px;
+    background-color: rgb(253, 252, 252);
+    border-radius: 20px;
+    padding: 0 60px 0 10px;
+}
+
+#searchButton{
+    width: 38px;
+    height: 41px;
+    background-image: url("../img/loop.png");
+    margin: -100px 0 20px 125px;
+}
+
+#logoSite{
+    width:270px;
+    height: 215px;
+    position: relative;
+    margin: 0 0 0 100px;
+}
+
+#titleText{
+    font-family: "Reey-Regular"; 
+    font-size: 80pt;
+    color: rgb(253, 252, 252);
+    margin:78px 0 0 104px;
+}
+
+#subtitleText{
+    color: rgb(253, 252, 252);
+    font-family: "open Sans Bold";
+    font-style: italic;
+    font-size: 20pt;
+    margin: 121px 0 0 102px;
+}
+
+#readMore, #showBtn, #moreInfoBtn{
+    margin: 64px 0 10px 102px;
+}
+
+#readMoreBtn a{
+    font-family: "open Sans Bold"; 
+    font-style:"extraBold";
+    font-size: 24pt;
+    color:#2e3034;
+    height: auto;
+    background-color:rgb(253, 252, 252);
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: all 2s ease;
+}
+
+#readMoreBtn a:hover, #moreInfoBtn  a:hover{
+    color: rgb(253, 252, 252);
+    background-color: rgba(255, 255, 255, 0.575);
+    transition: all 2s ease;
+}
+
+#bodyHeaderText{
+    width:480px;
+    font-family: "open Sans Bold"; 
+    font-style: italic;
+    font-size: 14.2pt;
+    color:rgb(253, 252, 252);
+    margin: 32px 0 0 102px;
+    text-align: justify;
+}
+
+#divBody{
+    position: relative;
+}
+
+
+#backgroundPlate{
+    position: relative;
+    height:626px;
+    width: 638px;
+    background: url("../img/Background-plate.png") no-repeat;
+    background-size: 626px;
+    margin: -600px 0 0px 700px;
+    z-index: 1;
+}
+
+#backgroundPlate2{
+    width: 232px;
+    height:217px;
+    background: url("../img/Background-plate2.png") no-repeat;
+    background-size: 232px;
+    margin: -150px 0 0px 620px;
+    position: relative;
+    z-index: 2;
+}
+
+#backgroundLeaves{
+    width: 490px;
+    height:422px;
+    background: url("../img/backgroundLeaves.png") no-repeat;
+    background-size: 535px;
+    margin: -230px 0 0px 857px;
+    position: relative;
+    z-index: 3;
+}
+
+#bodyTitle h1{
+    font-family: "Reey-Regular";
+    font-size: 57pt;
+    color:rgb(34,35,40);
+    margin: 42px 0 0 0px; 
+    padding: 0 0 0 290px;
+}
+
+#bodyTitle p, #mailSubscribeTitle p{
+    width:691px;
+    font-family: "open Sans light"; 
+    font-size: 20pt;
+    color:rgb(47,49,53);
+    text-align: center;
+    margin:51px 0 0 320px;
+}
+
+.articleImg{
+    display: inline-block;
+    margin: 100px 100px 0 100px;
+    padding: 0px 10px 0 10px;
+    overflow: hidden;
+}
+
+.articleImg img{
+    width: 310px;
+    height: 312px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 35px 50px 0px rgb(164, 165, 164);
+    margin: 0 30px 70px 30px;
+}
+
+#articleTextBo, #articleTextBox, #additionalBase{
+    text-align: center;
+    position: relative;
+}
+
+.articleText{
+    display: inline-block;
+    margin:0 60px 0 60px;
+}
+    
+.articleText h1{
+    font-family: "open Sans Bold";
+    font-size: 20pt;
+    color:rgb(52,52,52);  
+    text-align: left;
+}
+
+.articleText p, #pizzaText p{
+    width:250px;
+    font-family: "open Sans light";
+    font-size: 12pt;
+    text-align: left;
+}
+
+#showBtn, #moreInfoBtn{
+    margin: 100px auto 50px auto;
+    position: relative;
+}
+
+#showBtn a, #discountBtnShow a, #januaryPromoBtnShow a{
+    font-family: "open Sans Bold"; 
+    font-style:"extraBold";
+    font-size: 24pt;
+    color:#ffffff;
+    height: auto;
+    background-color:rgb(52, 52, 52);
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: all 2s ease;
+}
+
+
+#showBtn a:hover,#discountBtnShow a:hover,#januaryPromoBtnShow a:hover{
+    color: rgb(52, 52, 52);
+    background-color: rgba(255, 255, 255, 0.575);
+    transition: all 2s ease;
+}
+
+#additionalBase{
+    height: 500px;
+    background-color: rgb(39,41,44);
+    position: relative;
+}
+
+#additionalBaseTitle h1, #pizzaPageTitleText h1{
+    display: inline-block;
+    font-family: "Reey-Regular";
+    font-size: 57pt;
+    color:rgb(255, 255, 255);
+    margin: 60px 0 0 100px; 
+}
+
+#additionalBaseText{
+    margin: 55px 0 0 190px;
+}
+
+#additionalBaseText p{
+    width:425px;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 10.5pt;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    margin:0 150px 10px 0;
+}
+
+#moreInfoBtn a {
+    font-family: "open Sans Bold"; 
+    font-style:"extraBold";
+    font-size: 24pt;
+    color:#2e3034;
+    height: auto;
+    background-color:rgb(253, 252, 252);
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: all 2s ease;
+}
+
+#ourPage{
+    height: 895px;
+    margin:0 0 75px 0;
+    position: absolute;
+}
+
+#discountArticle,#januaryPromo{
+    display: inline-block;
+    margin: 50px 0 0px 130px;
+    position:relative;
+}
+
+#discountArticle img, #januaryPromo img{
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 35px 50px 0px rgb(164, 165, 164);
+}
+
+#discountImg{
+    width:  500px;
+    height: 498px;
+    margin: 0 0 60px 0;
+}
+
+#januaryPromoImg{
+    width:  500px;
+    height: 500px;
+    margin: 0 0 60px 530px;
+}
+
+#discountArticle h1, #januaryPromo h1{
+    font-family: "open Sans Bold";
+    font-size: 50px;
+}
+
+#discountArticle p, #januaryPromo p{
+    font-family: "open Sans light";
+    font-size: 25px;
+}
+
+#discountTitle{
+    width: 470px;
+    margin: 0px 0 0 530px;
+    padding: 50px 0 0 0;
+}
+
+#discountText{
+    width: 470px;
+    margin: 0px 0 0 530px;
+    padding: 50px 0 0 0;
+    
+}
+
+#discountBtnShow{
+    margin: 20px 0 0 530px;
+}
+
+#januaryPromoTitle{
+    width: 470px;
+    padding: 50px 0 0 0;
+}
+
+#januaryPromoText{
+    width: 470px;
+    padding: 50px 0 0 0;
+    
+}
+
+#januaryPromoBtnShow{
+    margin: 20px 0 0 0px;
+}
+
+
+#pizzaPage{
+    height: 824px;
+    background: url("../img/headerBackground2.jpg") no-repeat;
+    background-size: cover;
+    z-index: 3;
+    position: relative;
+    margin:50px 0 800px 0;
+}
+
+#pizzaPageTitleText h1{
+padding: 80px 0 0 150px;
+font-size: 40pt;
+}
+
+#backgroundLeaves2{
+    width: 365px;
+    height:682px;
+    background: url("../img/backgroundLeaves2.png") no-repeat;
+    background-size: cover;
+    margin: -400px 0 0px 950px;
+    position: relative;
+    z-index: 4;
+}
+
+#backgroundLeaves3{
+    width: 337px;
+    height:497px;
+    background: url("../img/backgroundLeaves3.png") no-repeat;
+    background-size: cover;
+    margin: -350px 0 0px 0px;
+    position: relative;
+    z-index: 4;
+}
+
+#pizzaPageTitleText p{
+    width: 600px;
+    font-family: "Montserrat";
+    font-size: 15pt;
+    color:rgb(253, 252, 252);
+    margin: 50px auto 0 auto;
+}
+
+#line{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(253, 252, 252);
+    margin: 0 auto 0 auto;
+}
+
+#bacrgroundPizaImg{
+    width: 700px;
+    height:580px;
+    background: url("../img/piza.png") no-repeat;
+    background-size: cover;
+    margin: -415px 0 0px 400px;
+    position: relative;
+    z-index: 5;
+}
+
+#pizzaText{
+    margin:20px 0 0 0;
+}
+
+#pizzaText div{
+    width: 350px;
+    display: inline-block;
+    margin: 0 0px 0 90px;
+}
+
+#pizzaText h1{
+    font-family: "Reey-Regular"; 
+    font-size: 20pt;
+    color:rgb(57, 57, 57);
+}
+
+#pizzaText p{
+    width:320px;
+    text-align: left;
+    margin: 10px 0px 0 -30px;
+}
+
+#bodyPizzaText{
+    padding: 0 0 180px 0;
+}
+
+#bodyPizzaText p{
+    width:550px;
+    font-family: "open Sans SemiBold"; 
+    font-size: 12pt ;
+    text-align: center;
+    margin: 150px auto 0 auto;
+}
+
+#authorName p{
+    font-family: "open Sans Bold";
+    font-size: 25pt;
+    margin: 50px auto 0px auto;
+}
+
+#mailSubscribe{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(36,38,40);
+    position: relative;
+}
+
+#backgroundLeaves4{
+    width: 324px;
+    height:352px;
+    background: url("../img/backgroundLeaves4.png") no-repeat;
+    background-size: cover;
+    margin:-50px 0 0 1020px;
+    position: relative;
+    z-index: 4;
+}
+
+#mailSubscribeTitle h1{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: "open Sans Bold";
+    font-size: 50pt;
+    color:rgb(253, 252, 252);
+    text-align: center;
+}
+
+#mailSubscribeTitle p{
+    color:rgb(253, 252, 252);
+    text-align: center;
+}
+
+#subscribeblock{
+    width:100%;
+    text-align: center;
+    margin:87px 0 0 0;
+}
+
+#subscribeForm{
+    width:780px;
+    font-family: "open Sans light"; 
+    padding: 0 220px 0 20px;
+}
+
+#subscribePositionButton{
+    margin: -50.7px 0px 0px 511px;
+}
+
+#subscribeButton{
+    font-family: "open Sans Bold";
+    font-size: 25px;
+    height: 50px;
+    width: 222px;
+    background-color: rgb(84,82,79);
+    color:rgb(253, 252, 252);
+    border-radius: 20px;
+    margin: 1px -55px 0 0;
+    transition: all 2s ease;
+}
+
+#subscribeButton:hover{
+    background-color:rgb(253, 252, 252);
+    color: rgb(84,82,79);
+    transition: all 2s ease;
+}
+
+#backgroundLeaves5{
+    width: 285px;
+    height:349px;
+    background: url("../img/backgroundLeaves5.png") no-repeat;
+    background-size: cover;
+    margin:-40px 0 0 0px;
+    position: relative;
+    z-index: 4;
+}
+
+#divFooter{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin: 340px 0 0 0px;
+    display: inline-block;
+}
+
+.divFooterMenuBlock{
+    position: relative;
+    width:550px;
+    margin:0 0 0 84px;
+    float: left;
+}
+
+.divFooterMenuBlock h1, .divFooterMenuBlock p{
+    font-family: "Montserrat";
+    font-size: 25pt; 
+    color:#2e3034;
+    text-align: left;
+}
+
+.divFooterMenuBlock p{
+    font-size: 15pt;
+    word-wrap:normal;
+}
+
+#socialNetwork{
+    width: 550px;
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+#socialNetwork a{
+    width:63px;
+    display: inline-block;
+    margin: 10px 70px 0 0;
+}
+
+#divFooterMenuBlock2 div{
+    display: inline-block;
+    vertical-align:top;
+}
+
+#divFooterMenuBlock2 li,#divFooterMenuBlock2 a{
+    font-family: "Montserrat";
+    font-size: 15pt;
+    color:#2e3034;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    transition: all 2s ease;
+}
+
+#divFooterMenuBlock2 a:hover{
+    color:rgb(253, 252, 252); 
+    background-color:#2e3034;
+    border-radius: 5px;
+    transition: all 2s ease;
+}
+
+
+
